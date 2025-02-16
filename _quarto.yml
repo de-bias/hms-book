@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: _docs
   
 prefer-html: true
 
@@ -34,7 +35,7 @@ book:
   cover-image: cover.png
   favicon: cover.png
   #site-url: https://r4ds.hadley.nz/
-  repo-url: https://github.com/de-bias/human-mobility-science-book
+  repo-url: https://github.com/de-bias/hms-book
   repo-branch: main
   repo-actions: [edit, issue]
       
