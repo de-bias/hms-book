@@ -20,7 +20,7 @@ book:
     - name: Carmen Cabrera-Arnau
       orcid: 0000-0002-2732-6436
       email: c.cabrera-arnau@liverpool.ac.uk
-      url: https://www.franciscorowe.com
+      url: https://cabrera-arnau.com
       affiliations:
       - name: University of Liverpool
         city: Liverpool
@@ -34,7 +34,7 @@ book:
       This book was built with <a href="https://quarto.org/">Quarto</a>.
   cover-image: cover.png
   favicon: cover.png
-  #site-url: https://r4ds.hadley.nz/
+  site-url: https://de-bias.github.io/debias/hms-book/
   repo-url: https://github.com/de-bias/hms-book
   repo-branch: main
   repo-actions: [edit, issue]
