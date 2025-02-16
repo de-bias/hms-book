@@ -1,0 +1,83 @@
+project:
+  type: book
+  
+prefer-html: true
+
+book:
+  title: "Human Mobility Science: Approaches, Applications and Tools"
+  reader-mode: true
+  
+  author: 
+    - name: Francisco Rowe
+      orcid: 0000-0003-4137-0246
+      email: f.rowe-gonzalez@liverpool.ac.uk
+      url: https://www.franciscorowe.com
+      affiliations:
+      - name: University of Liverpool
+        city: Liverpool
+        country: United Kingdom
+    - name: Carmen Cabrera-Arnau
+      orcid: 0000-0002-2732-6436
+      email: c.cabrera-arnau@liverpool.ac.uk
+      url: https://www.franciscorowe.com
+      affiliations:
+      - name: University of Liverpool
+        city: Liverpool
+        country: United Kingdom
+  date: today
+  
+  page-footer:
+    left: |
+      Human Mobility Science: Approaches, Applications and Tools was written by Francisco Rowe and Carmen Cabrera-Arnau.
+    right: |
+      This book was built with <a href="https://quarto.org/">Quarto</a>.
+  cover-image: cover.png
+  favicon: cover.png
+  #site-url: https://r4ds.hadley.nz/
+  repo-url: https://github.com/de-bias/human-mobility-science-book
+  repo-branch: main
+  repo-actions: [edit, issue]
+      
+  chapters:
+    - index.qmd
+    - intro.qmd
+    - part: p1-mobility-data.qmd
+      chapters:
+      - 01_data-forms.qmd
+      - 02_mobile-phone-data-fundamentals.qmd
+      - 03_data-ethics.qmd
+      
+    - part: p2-data-pipelines.qmd
+      chapters:
+      - 04_data-processing-models.qmd
+      - 05_location-detection.qmd
+      - 06_spatial-aggregation.qmd
+      - 07_temporal-aggregation.qmd
+      - 08_home-location.qmd
+      - 09_work-location.qmd
+    
+    - part: p3-data-assurance.qmd
+      chapters:
+      - 10_measuring-bias.qmd
+      - 11_bias-analysis.qmd
+      - 12_bias-adjustment.qmd
+      - 13_quality-assessment.qmd
+      
+    - part: p4-mobility-analysis.qmd
+      chapters:
+      - 14_spatial-summary-indicators.qmd
+      - 15_mobility-networks.qmd
+      - 16_spatial-interaction-modelling.qmd
+    
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+#  pdf:
+#    documentclass: scrreprt
+
+editor: visual
+
