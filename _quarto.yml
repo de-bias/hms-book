@@ -38,6 +38,11 @@ book:
   repo-url: https://github.com/de-bias/hms-book
   repo-branch: main
   repo-actions: [edit, issue]
+  
+  google-analytics:
+    tracking-id: "G-2EV4SS7MLP"
+    storage: none
+    anonymize-ip: true
       
   chapters:
     - index.qmd
